@@ -1,0 +1,64 @@
+2022-11-01 16:49:35,060 INFO    StreamThr :23610 [internal.py:wandb_internal():88] W&B internal server running at pid: 23610, started at: 2022-11-01 16:49:35.058561
+2022-11-01 16:49:35,062 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: status
+2022-11-01 16:49:35,065 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: status
+2022-11-01 16:49:35,094 DEBUG   SenderThread:23610 [sender.py:send():303] send: header
+2022-11-01 16:49:35,095 INFO    WriterThread:23610 [datastore.py:open_for_write():75] open: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/run-21ujas6t.wandb
+2022-11-01 16:49:35,119 DEBUG   SenderThread:23610 [sender.py:send():303] send: run
+2022-11-01 16:49:35,577 INFO    SenderThread:23610 [dir_watcher.py:__init__():216] watching files in: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/files
+2022-11-01 16:49:35,577 INFO    SenderThread:23610 [sender.py:_start_run_threads():928] run started: 21ujas6t with start time 1667317775.059946
+2022-11-01 16:49:35,916 DEBUG   SenderThread:23610 [sender.py:send():303] send: summary
+2022-11-01 16:49:35,917 INFO    SenderThread:23610 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-01 16:49:35,923 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: check_version
+2022-11-01 16:49:35,923 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: check_version
+2022-11-01 16:49:36,018 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: run_start
+2022-11-01 16:49:36,082 DEBUG   HandlerThread:23610 [meta.py:__init__():34] meta init
+2022-11-01 16:49:36,082 DEBUG   HandlerThread:23610 [meta.py:__init__():49] meta init done
+2022-11-01 16:49:36,083 DEBUG   HandlerThread:23610 [meta.py:probe():215] probe
+2022-11-01 16:49:36,152 DEBUG   HandlerThread:23610 [meta.py:_setup_git():205] setup git
+2022-11-01 16:49:36,169 DEBUG   HandlerThread:23610 [meta.py:_setup_git():212] setup git done
+2022-11-01 16:49:36,169 DEBUG   HandlerThread:23610 [meta.py:_save_pip():53] save pip
+2022-11-01 16:49:36,171 DEBUG   HandlerThread:23610 [meta.py:_save_pip():67] save pip done
+2022-11-01 16:49:36,171 DEBUG   HandlerThread:23610 [meta.py:_save_conda():74] save conda
+2022-11-01 16:49:36,582 INFO    Thread-13 :23610 [dir_watcher.py:_on_file_created():275] file/dir created: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/files/conda-environment.yaml
+2022-11-01 16:49:36,582 INFO    Thread-13 :23610 [dir_watcher.py:_on_file_created():275] file/dir created: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/files/wandb-summary.json
+2022-11-01 16:49:36,582 INFO    Thread-13 :23610 [dir_watcher.py:_on_file_created():275] file/dir created: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/files/requirements.txt
+2022-11-01 16:49:41,082 DEBUG   HandlerThread:23610 [meta.py:_save_conda():84] save conda done
+2022-11-01 16:49:41,082 DEBUG   HandlerThread:23610 [meta.py:probe():253] probe done
+2022-11-01 16:49:41,167 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:49:41,168 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:49:41,362 DEBUG   SenderThread:23610 [sender.py:send():303] send: telemetry
+2022-11-01 16:49:41,362 DEBUG   SenderThread:23610 [sender.py:send():303] send: files
+2022-11-01 16:49:41,363 INFO    SenderThread:23610 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-01 16:49:41,583 INFO    Thread-13 :23610 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/files/conda-environment.yaml
+2022-11-01 16:49:41,583 INFO    Thread-13 :23610 [dir_watcher.py:_on_file_created():275] file/dir created: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/files/wandb-metadata.json
+2022-11-01 16:49:41,940 INFO    Thread-17 :23610 [upload_job.py:push():143] Uploaded file /tmp/tmp35g40s_0wandb/a1cn1rnq-wandb-metadata.json
+2022-11-01 16:49:56,366 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:49:56,366 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:49:58,598 INFO    Thread-13 :23610 [dir_watcher.py:_on_file_created():275] file/dir created: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/files/output.log
+2022-11-01 16:50:00,601 INFO    Thread-13 :23610 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/files/output.log
+2022-11-01 16:50:06,606 INFO    Thread-13 :23610 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/files/config.yaml
+2022-11-01 16:50:11,343 DEBUG   SenderThread:23610 [sender.py:send():303] send: stats
+2022-11-01 16:50:11,570 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:50:11,570 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:50:26,778 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:50:26,779 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:50:36,636 INFO    Thread-13 :23610 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/amawi/projects/denoising-diffusion-flax/denoising_diffusion_flax/wandb/run-20221101_164935-21ujas6t/files/output.log
+2022-11-01 16:50:37,268 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: pause
+2022-11-01 16:50:37,268 INFO    HandlerThread:23610 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-11-01 16:50:37,618 DEBUG   SenderThread:23610 [sender.py:send():303] send: stats
+2022-11-01 16:50:41,965 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:50:41,965 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:50:57,153 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:50:57,153 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:51:12,337 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:51:12,338 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:51:27,524 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:51:27,525 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:51:42,706 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:51:42,706 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:51:57,896 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:51:57,896 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:52:13,093 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:52:13,094 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
+2022-11-01 16:52:28,282 DEBUG   HandlerThread:23610 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-01 16:52:28,282 DEBUG   SenderThread:23610 [sender.py:send_request():317] send_request: stop_status
